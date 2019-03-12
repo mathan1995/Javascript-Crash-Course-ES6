@@ -3,7 +3,7 @@ const person = {
   firstname: "steve",
   age: 24,
   email: "m@get.com",
-  afddress: "Kondavil",
+  address: "Kondavil",
   hobbies: ["sports", "movies"],
   address: {
     city: "jaffna",
@@ -28,13 +28,15 @@ val = person.getBirthYear();
 //Other way ==== //val=person['firstname'];
 const people = [
   { name: "Mathan", age: 24 },
-  { name: "anu", age: 20 },
-  { name: "brin", age: 25 }
+  { name: "Anu", age: 20 },
+  { name: "Brinthan", age: 25 }
 ];
 
-for (let i = 0; i < people.length; i++) {
+for (let i = 0; i < people.lengeth; i++) {
   console.table(people[i].name);
 }
+
+console.table(people);
 //Output
-console.log(val);
-console.table(val);
+// console.log(val);
+// console.table(val);
